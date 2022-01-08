@@ -1,0 +1,72 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    background: url("../img/templatemo_body.jpg");
+    padding: 0px 270px;
+    margin: auto;
+    border-top: 4px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------ Navigation style --------------- */
+nav{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 25px;
+    z-index: 10;
+    margin: -5px -3px;
+}
+nav a:hover{
+    border-top: 4px solid white;
+    color: white;
+}
+/* -------------------- Logo ---------------------- */
+header{margin-top: -20px;}
+header a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-weight: 0;
+    font-style: normal;
+}
+header p{
+    font-size:  20px;
+    color: #5F6675;
+    margin: -10px 0px;
+    font-weight: bold;
+}
+/* ---------------- Footer ---------------- */
+footer{
+    background-color: #171B25;
+    border-top: 1px solid black;
+    padding: 30px 50px;
+    text-align: center;
+}
+footer a{
+    color: red;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+footer p{
+    color: white;
+    font-size: 13px;
+}
+@media only screen and (max-width: 1300px){ body{padding: 0px 100px;} }
+@media only screen and (max-width: 1000px){ body{padding: 0px 20px;} }
+@media only screen and (max-width: 800px){
+    header{margin-top: 20px;text-align: center;}
+    nav{justify-content: center;}
+}
+@media only screen and (max-width: 650px){
+    nav a{
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}

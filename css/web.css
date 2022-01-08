@@ -1,0 +1,198 @@
+nav a:nth-child(2){
+    border-top: 4px solid white;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about-left{
+    display: inline-block;
+    width: 58%;
+}
+.about-header > h2{color: white;}
+.about-header > p{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.about-header > p > a{color: orangered;}
+.about-header > p > a:hover{
+    color: yellowgreen;
+    text-decoration: none;
+}
+.about-antar > p{
+    display: inline-block;
+    width: 70%;
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.antar-img{
+    display: inline-block;
+    padding: 3px 3px 0px 3px;
+    border: 1px solid white;
+}
+.about-a{color: orangered;}
+.about-a:hover{
+    text-decoration: none;
+    color: yellowgreen;
+}
+/*///////////////////////////////////////////////////////// aside */
+aside{
+    display: inline-block;
+    width: 32%;
+    padding-left: 60px;
+}
+aside > h2{
+    color: white;
+}
+aside > P{
+    color: white;
+    font-size: 13px;
+}
+form > label{
+    color: white;
+    font-size: 14px;
+}
+form > input{
+    width: 250px;
+    height: 30px;
+    outline: 0px solid transparent;
+}
+.blue{
+    color: white;
+    background-color: rgb(43, 117, 255);
+    padding: 12px 18px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    float: right;
+}
+.project > p{
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    width: 70%;
+    line-height: 20px;
+}
+.project > h2{
+    color: white;
+}
+.project > p > span{
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+}
+.news > h2{
+    color: white;
+}
+.news > p{
+    font-size: 12px;
+    color: white;
+    line-height: 18px;
+}
+.news > p > a{
+    font-size: 14px;
+    color: yellowgreen;
+}
+.news > p > a:hover{
+    text-decoration: none;
+}
+.news2{
+    border-top: 1px dotted white;
+    border-bottom: 1px dotted white;
+}
+.news2 > p{
+    font-size: 12px;
+    color: white;
+    line-height: 18px;
+}
+.news2 > p > a{
+    font-size: 14px;
+    color: yellowgreen;
+}
+.news2 > p > a:hover{ text-decoration: none;}
+/* ////////////////////////////////////////////////////////responsive */
+/*///////////////////////////////////////////////////////// min-width */
+@media screen and (min-width: 1554px){
+    body{
+        padding: 0px 270px;
+    }
+}
+@media  screen and (min-width: 1700px) {
+    body{
+        padding: 0px 310px;
+    }
+}
+@media screen and (min-width: 1800px){
+    body{
+        padding: 0px 350px;
+    }
+    aside{
+        padding-left: 30px;
+    }  
+}
+@media screen and (min-width: 2000px) {
+    body{
+        padding: 0px 400px;
+    }
+    
+}
+/* ///////////////////////////////////////////////////////////////max-width */
+@media screen and (max-width: 1250px) {
+    .about-antar{
+        text-align: center;
+    
+    }
+    .about-antar > p{
+       text-align: justify;
+    
+    }
+}
+@media screen and (max-width: 1100px) {
+   .about{
+       display: block;
+   }
+   .about-left{
+       width: 100%;
+   }
+   aside{
+       display: block;
+       width: 100%;
+       padding-left: 0px;
+   }
+}
+@media screen and (max-width: 958px) {
+    body{
+        padding: 0px 150px;
+    }
+    
+}
+@media screen and (max-width: 858px) {
+    body{
+        padding: 0px 130px;
+    }
+}
+@media screen and (max-width: 818px) {
+    .about-antar > p{
+        width: 90%;
+
+    } 
+}
+@media screen and (max-width: 610px) {
+    .about-antar > p {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 520px) {
+    body{
+        padding: 0px 100px;
+    }
+    
+}
+
+
+
+

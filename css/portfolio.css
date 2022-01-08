@@ -1,0 +1,54 @@
+nav a:nth-child(3){
+    border-top: 4px solid white;
+    color: white;
+}
+.our_portfolio_1{
+    font-family: arial;
+    color: white;
+    margin-top: 50px;
+}
+.our_portfolio_2{
+    font-family: arial;
+    color: white;
+    margin-top: 25px;
+    font-size: 23px;
+}
+.link{ color: #F16600; }
+.link:hover{ color: #AAFF00; }
+/* --------------------------------------------------------- Projects ------------------------------------------------------------------- */
+.a-a{
+    width: 311px;
+    background-color: #1B1F29;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+.a-a img{
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.p-1-1{
+    font-family: arial;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.p-1-2{
+    font-family: arial;
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.hr-2{
+    background-color: black;   
+    border: 1px solid rgb(56, 55, 65);
+    margin-top: 100px;
+    width: 110%;
+    margin-left: -5%;
+}
+.div-1{ text-align: center; }
+@media only screen and (max-width: 650px){ our_portfolio_2{ text-align: center; } hr{margin-top: 40px;} }
+@media only screen and (max-width: 1300px){ .hr-2{ width: 100%;} }
